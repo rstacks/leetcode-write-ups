@@ -50,3 +50,7 @@ class Solution:
 ```
 
 ## Alternative Approach
+
+Since we are only concerned with whether an element of the array occurs more than once and not the specific number of occurrences, it is actually not necessary to use a hash map.
+Instead, a hash set could be used. Then, within the loop, we can simply check if the current
+element is already present in the hash set. This approach would have the same complexities as my solution.
